@@ -1,0 +1,112 @@
+body{
+    font-family: 'Source code pro', Calibri, serif;
+    background-image: url("12.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav{
+    height: 60%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 17em;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-size: 0.65em;
+    list-style: none;
+    position: absolute;
+    opacity: 0.85;
+}
+nav{
+    display: block;
+    background-color: black;
+}
+
+/* nav > ul{
+    margin: 0px;
+    padding: 0px;
+}  */
+#nav button {
+    display: block;
+    width: 100%;
+    margin: 8px 0px;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    font-size: 25px;
+    color: #fff8f8;
+    display: block;
+}
+#nav button:hover {
+    /* border-left: 5px solid #bbb;
+    background-color: RGBa(220, 220, 220, 0.15); */
+    color: aqua;
+    box-shadow: aquamarine;
+    cursor: pointer;
+    background-color: rgb(252, 111, 30);
+    transform: scale(1.01);
+    transition: 0.3s ease-in;
+}
+
+  
+
+/*nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+nav > ul > li{
+    float: none;
+    position: relative;
+}*/
+
+nav li{
+    list-style-type: none; 
+}
+
+
+/*
+ menu au survol de la souris */
+ .menuAc:hover{
+    border-top: 5px solid #bbb;
+    background-color: RGBa(220, 220, 220, 0.15);
+}
+.menuIns:hover{
+    border-top: 5px solid #0070bb;
+    background-color: RGBa(000, 112, 192, 0.15);
+}
+.menuLi:hover{
+    border-top: 5px solid #f1dc4f;
+    background-color: RGBa(241, 211, 79, 0.15);
+}
+.menuPub:hover{
+    border-top: 5px solid #35B554;
+    background-color: RGBA(54,244,63,0.14);
+}
+.menuMess:hover{
+    border-top: 5px solid #be2edd;
+    background-color: RGBA(125,93,148,0.15);
+}
+.menuDec:hover{
+    
+    border-top: 5px solid #e44d26;
+    background-color: RGBa(228, 77,38, 0.15);
+} 
+
+#h1{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-40%);
+    color: white;
+    font-style: italic;
+    font-family: Brush Script MT;
+    font-size: 100px;
+}
